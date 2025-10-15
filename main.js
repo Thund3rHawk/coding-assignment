@@ -35,12 +35,13 @@ function solution(D) {
       if (prev_index in day_sums && next_index in day_sums) {
         const prev_value = day_sums[prev_index];
         const next_value = day_sums[next_index];
-        
+
         // Total steps between prev and next (including missing days)
         const total_steps = steps_back + steps_forward;
-        
+
         // Interpolate: prev + (next - prev) * (steps_back / total_steps)
-        const interpolated = prev_value + ((next_value - prev_value) * steps_back) / total_steps;
+        const interpolated =
+          prev_value + ((next_value - prev_value) * steps_back) / total_steps;
         day_sums[i] = Math.floor(interpolated);
       }
     }
@@ -67,4 +68,4 @@ function solution(D) {
 //   "2020-01-08": -2, //wed
 // });
 
-module.exports = solution
+module.exports = solution;
