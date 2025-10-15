@@ -1,0 +1,23 @@
+{
+  "name": "coding_assignment",
+  "version": "1.0.0",
+  "description": "this is an coding assignment",
+  "homepage": "https://github.com/Thund3rHawk/coding-assignment#readme",
+  "bugs": {
+    "url": "https://github.com/Thund3rHawk/coding-assignment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thund3rHawk/coding-assignment.git"
+  },
+  "license": "ISC",
+  "author": "swadhin paul",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^30.2.0"
+  }
+}
