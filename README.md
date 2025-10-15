@@ -1,4 +1,4 @@
-## Example (JavaScript)
+## Coding Assignment
 
 ## 🚩 Problem Statement
 
